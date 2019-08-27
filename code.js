@@ -58,6 +58,7 @@ let layoutText = () => {
 let run = () => __awaiter(this, void 0, void 0, function* () {
     yield loadFontHead("Add Heading");
     yield loadFontDesc("Add Description");
+    figma.notify("Project Scafolding Done 👍");
     figma.closePlugin();
 });
 run();

@@ -64,6 +64,7 @@ let layoutText = () => {
 let run = async ()=>{
 await loadFontHead("Add Heading");
 await loadFontDesc("Add Description");
+figma.notify("Project Scafolding Done 👍")
 figma.closePlugin();
 }
 
