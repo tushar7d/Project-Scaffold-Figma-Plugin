@@ -69,11 +69,3 @@ figma.closePlugin();
 }
 
 run();
-
-
-
-
-
-
-
-
